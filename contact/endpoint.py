@@ -6,7 +6,6 @@ from email.mime.multipart import MIMEMultipart
 
 router= APIRouter()
 
-
 # Replace email server and credentials
 SMTP_SERVER = "your-smtp-server.com"
 SMTP_PORT = 587

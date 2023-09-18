@@ -6,12 +6,11 @@ from email.mime.multipart import MIMEMultipart
 
 router1= APIRouter()
 
-
 # Replace email server and credentials
 SMTP_SERVER = "your-smtp-server.com"
 SMTP_PORT = 587
-SMTP_USERNAME = "your-email@example.com"
-SMTP_PASSWORD = "your-email-password"
+SMTP_USERNAME = "email"
+SMTP_PASSWORD = "password"
 
 # endpoint to send emails
 @router1.post("/Information/")
